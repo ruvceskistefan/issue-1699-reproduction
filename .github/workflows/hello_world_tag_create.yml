@@ -1,0 +1,12 @@
+name: issue 1699 reproduction workflow
+on:
+  create:
+    tags:
+      v*
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World! Issue 1699 reproduction workflow..."
