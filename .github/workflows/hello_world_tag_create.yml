@@ -1,4 +1,4 @@
-name: issue 1699 reproduction workflow
+name: Issue 1699 reproduction workflow
 on:
   push:
     tags:
