@@ -2,7 +2,7 @@ name: issue 1699 reproduction workflow
 on:
   create:
     tags:
-      'v*'
+      - 'v*'
 
 jobs:
   my-job:
