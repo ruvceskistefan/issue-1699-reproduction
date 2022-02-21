@@ -1,6 +1,6 @@
 name: issue 1699 reproduction workflow
 on:
-  push:
+  create:
     tags:
       - v*
 
